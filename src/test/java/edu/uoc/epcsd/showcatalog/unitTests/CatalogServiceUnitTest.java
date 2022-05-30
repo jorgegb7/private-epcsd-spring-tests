@@ -1,7 +1,9 @@
-package edu.uoc.epcsd.showcatalog.domain.service;
+package edu.uoc.epcsd.showcatalog.unitTests;
 
 import edu.uoc.epcsd.showcatalog.domain.Show;
 import edu.uoc.epcsd.showcatalog.domain.repository.ShowRepository;
+import edu.uoc.epcsd.showcatalog.domain.service.CatalogService;
+import edu.uoc.epcsd.showcatalog.domain.service.CatalogServiceImpl;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -17,7 +19,7 @@ import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 @MockitoSettings(strictness = Strictness.LENIENT)
-class CatalogServiceTest {
+class CatalogServiceUnitTest {
 
     private CatalogService catalogService;
 
@@ -31,14 +33,14 @@ class CatalogServiceTest {
     }
 
     @Test
-    void findShowById() {
+    void whenFindShowByValidId_returnValidShow() {
         Optional<Show> fromDb = catalogService.findShowById(111L);
         assert fromDb.isPresent();
         assertThat(fromDb.get().getId()).isEqualTo(111L);
     }
 
     @Test
-    void findShowById2() {
+    void whenFindShowByWrongId_checkNull() {
         Optional<Show> fromDb = catalogService.findShowById(-7L);
         assertThat(fromDb).isNull();
     }
