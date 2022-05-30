@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.uoc.epcsd.showcatalog.integrationtests.CatalogRepositoryIntegrationTest" time="1.654" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ArchUnitTest" time="0.751" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -63,5 +63,5 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="whenStoredACategory_WeCanFindCategoryById" classname="edu.uoc.epcsd.showcatalog.integrationtests.CatalogRepositoryIntegrationTest" time="0.1"/>
+  <testcase name="ArchUnitTest" classname="edu.uoc.epcsd.showcatalog.archtest.ArchUnitTest" time="0.751"/>
 </testsuite>
