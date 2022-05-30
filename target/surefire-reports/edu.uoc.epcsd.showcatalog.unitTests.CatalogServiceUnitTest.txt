@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: edu.uoc.epcsd.showcatalog.unitTests.CatalogServiceUnitTest
+Test set: edu.uoc.epcsd.showcatalog.unittests.CatalogServiceUnitTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.019 s - in edu.uoc.epcsd.showcatalog.unitTests.CatalogServiceUnitTest
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s - in edu.uoc.epcsd.showcatalog.unittests.CatalogServiceUnitTest

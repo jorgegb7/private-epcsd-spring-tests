@@ -1,4 +1,4 @@
-package edu.uoc.epcsd.showcatalog.unitTests;
+package edu.uoc.epcsd.showcatalog.unittests;
 
 import edu.uoc.epcsd.showcatalog.domain.Show;
 import edu.uoc.epcsd.showcatalog.domain.repository.ShowRepository;

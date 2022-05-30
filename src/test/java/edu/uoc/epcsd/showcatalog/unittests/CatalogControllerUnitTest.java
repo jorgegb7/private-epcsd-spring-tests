@@ -1,4 +1,4 @@
-package edu.uoc.epcsd.showcatalog.unitTests;
+package edu.uoc.epcsd.showcatalog.unittests;
 
 import config.Config;
 import edu.uoc.epcsd.showcatalog.domain.Category;
@@ -19,7 +19,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.hamcrest.Matchers.hasSize;
-import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
